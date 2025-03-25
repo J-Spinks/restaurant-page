@@ -22,4 +22,14 @@ export const generateHomePage = () => {
 
   contentDiv.appendChild(homePageDiv);
 
-}
+};
+
+export const homeTabHighlighted = () => {
+  const homeBtn = document.getElementById("home-btn");
+  homeBtn.style.backgroundColor = "rgb(249, 151, 4)";
+};
+
+export const clearContentDiv = () => {
+  const contentDiv = document.getElementById("content");
+  contentDiv.textContent = ""
+};

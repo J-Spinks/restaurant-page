@@ -1,4 +1,13 @@
-import { generateHomePage } from "./home";
+import { generateHomePage, homeTabHighlighted, clearContentDiv} from "./home";
+
 import "./styles.css";
 
-generateHomePage()
+const homeBtn = document.getElementById("home-btn");
+
+
+homeBtn.addEventListener("click", (e) => {
+  console.log(e)
+  clearContentDiv()
+  generateHomePage()
+  homeTabHighlighted()
+});
