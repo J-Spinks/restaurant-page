@@ -1,3 +1,4 @@
-import { test } from "./restaurant";
+import { generateHomePage } from "./home";
 import "./styles.css";
 
+generateHomePage()
