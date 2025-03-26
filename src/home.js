@@ -26,11 +26,10 @@ export const generateHomePage = () => {
 
 export const homeTabHighlighted = () => {
   const homeBtn = document.getElementById("home-btn");
-  homeBtn.style.backgroundColor = "rgb(249, 151, 4)";
-  homeBtn.style.cursor = "default";
+  homeBtn.classList.add("btn-selected");
 };
 
 export const clearContentDiv = () => {
   const contentDiv = document.getElementById("content");
-  contentDiv.textContent = ""
+  contentDiv.textContent = "";
 };

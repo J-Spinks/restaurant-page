@@ -17,14 +17,19 @@ nav {
   background-color: #444;
 }
 
-nav button {
+nav button, .btn {
   padding: 10px 20px;
   margin: 10px;
-  background-color: #f1c344;
+  background-color: #dfb749;
   border: none;
   color: white;
   cursor: pointer;
   border-radius: 4px;
+}
+
+nav button, .btn-selected {
+  background-color: rgb(249, 151, 4);
+  cursor: default;
 }
 
 nav button:hover {
